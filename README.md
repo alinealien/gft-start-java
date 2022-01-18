@@ -1,6 +1,6 @@
 #  GFT START JAVA 
 
-###### **Nível:** Básico                         **Carga Horaria:** 56 hrs                             **Atividades:** 24 
+###### **Nível:** Básico     |                       **Carga Horaria:** 56 hrs                 |         **Atividades:** 24 
 
 _______________________
 
