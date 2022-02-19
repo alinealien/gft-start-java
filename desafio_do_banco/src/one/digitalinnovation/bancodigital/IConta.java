@@ -2,10 +2,13 @@ package one.digitalinnovation.bancodigital;
 
 public interface IConta {
 
-    public void sacar();
 
-    public void depositar();
+    void sacar(double valor);
 
-    public void transferir();
+    void depositar(double valor);
+
+    void transferir(double valor, IConta contaDestino);
+
+    void imprimirExtrato();
 
 }

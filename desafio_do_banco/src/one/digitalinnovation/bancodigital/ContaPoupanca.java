@@ -1,29 +1,15 @@
 package one.digitalinnovation.bancodigital;
 
-public class ContaPoupanca {
-    private int agencia;
-    private int  numero;
-    private double saldo;
+public class ContaPoupanca extends Conta {
 
-    public void sacar(){
-
-    }
-    public void depositar(){
-
-    }
-    public void transferir(){
-
+    public ContaPoupanca(Cliente cliente) {
+        super(cliente);
     }
 
-    public int getAgencia() {
-        return agencia;
-    }
+    @Override
+    public void imprimirExtrato() {
+        System.out.println("=== Extrato da Conta Poupança ===");
+        super.imprimirInforComuns();
 
-    public int getNumero() {
-        return numero;
-    }
-
-    public double getSaldo() {
-        return saldo;
     }
 }
